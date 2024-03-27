@@ -13,5 +13,6 @@ public class Main {
         CountSequence sequenceChecker = new CountSequence();
         System.out.println(sequenceChecker.CountElements(new int[] {1, 2, 3, 4}));
         System.out.println(sequenceChecker.CountElements(new int[] {1, 1, 4, 4}));
+        System.out.println(sequenceChecker.CountElements(new int[] {1, 1, 2, 2}));
     }
 }

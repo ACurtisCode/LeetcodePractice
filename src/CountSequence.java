@@ -14,7 +14,7 @@ public class CountSequence {
         }
 
         for(int i=0; i<arr.length; i++) {
-            if(nums.contains(i) && nums.contains(i+1)) {
+            if(nums.contains(arr[i]) && nums.contains(arr[i]+1)) {
                 ans++;
             }
         }
