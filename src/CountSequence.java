@@ -5,7 +5,7 @@ public class CountSequence {
     public CountSequence() {
     }
 
-    public int CountElements(int [] arr) {
+    public int countElements(int[] arr) {
         Set<Integer> nums = new HashSet<>();
         int ans = 0;
 
@@ -19,5 +19,7 @@ public class CountSequence {
             }
         }
         return ans;
+
     }
+
 }
